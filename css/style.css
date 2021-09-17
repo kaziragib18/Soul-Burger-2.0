@@ -192,7 +192,7 @@ html{
 }
 
 .home__img{
-  width: 300px;
+  width: 370px !important;
   justify-self: center;
 }
 
@@ -207,8 +207,9 @@ html{
 }
 
 .about__img{
-  width: 280px;
-  border-radius: 1.3rem;
+  width: 350px !important;
+  height: 250px;
+  border-radius: 0.8rem;
   justify-self: center;
 }
 
