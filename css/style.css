@@ -1,6 +1,6 @@
+/*----- google font ------  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*---- VARIABLES CSS ----*/
 :root {
   --header-height: 3rem;
 
@@ -38,7 +38,7 @@
   --z-fixed: 100;
 }
 
-/*========== BASE ==========*/
+/*-------- Base -------*/
 *,::before,::after{
   box-sizing: border-box;
 }
@@ -47,7 +47,7 @@ html{
   scroll-behavior: smooth;
 }
 
-/*========== CLASS CSS ==========*/
+/*------- Class css --------*/
 .section{
   padding: 4rem 0 2rem;
 }
@@ -69,7 +69,7 @@ html{
   margin-bottom: var(--mb-1);
 }
 
-/*========== LAYOUT ==========*/
+/*------- LAYOUT --------*/
 .bd-container{
   max-width: 960px;
   width: calc(100% - 2rem);
@@ -91,7 +91,7 @@ html{
   background-color: var(--body-color);
 }
 
-/*========== NAV ==========*/
+/*-------- Navigation ---------*/
 .nav{
   max-width: 1024px;
   height: var(--header-height);
@@ -127,22 +127,22 @@ html{
   cursor: pointer;
 }
 
-/* Show menu */
+/*---------- Show menu ----------*/
 .show-menu{
   top: var(--header-height);
 }
 
-/* Active menu */
+/* --------Active menu--------- */
 .active-link{
   color: var(--first-color);
 }
 
-/* Change background header */
+/*------ Change background header ------- */
 .scroll-header{
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 
-/* Scroll top */
+/* ------- Scroll top-------- */
 .scrolltop{
   position: fixed;
   right: 1rem;
@@ -167,13 +167,13 @@ html{
   color: var(--body-color);
 }
 
-/* Show scrolltop */
+/*------- Show scrolltop -------*/
 .show-scroll{
   visibility: visible;
   bottom: 1.5rem;
 }
 
-/*========== HOME ==========*/
+/*--------- Home ---------*/
 .home__container{
   height: calc(100vh - var(--header-height));
   align-content: center;
@@ -197,7 +197,7 @@ html{
 }
 
 
-/*========== ABOUT ==========*/
+/*------- About -------*/
 .about__data{
   text-align: center;
 }
@@ -213,7 +213,7 @@ html{
   justify-self: center;
 }
 
-/*========== SERVICES ==========*/
+/*------- Service ---------*/
 .services__container{
   row-gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -240,7 +240,7 @@ html{
   padding: 0 1.5rem;
 }
 
-/*========== MENU ==========*/
+/*-------- Menu ----------*/
 .menu__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -288,7 +288,7 @@ html{
   border-radius: .5rem 0 .5rem 0;
 }
 
-/*========== APP ==========*/
+/*-------- App ----------*/
 .app__data{
   text-align: center;
 }
@@ -311,11 +311,58 @@ html{
   justify-self: center;
 }
 
-/*========== CONTACT ==========*/
+/*-------- Contact -----------*/
 .contact__container{
   text-align: center;
 }
 
 .contact__description{
   margin-bottom: var(--mb-3);
+}
+
+/*--------- Footer ---------*/
+.footer__container{
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem;
+}
+
+.footer__logo{
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.footer__description{
+  display: block;
+  font-size: var(--small-font-size);
+  margin: .25rem 0 var(--mb-3);
+}
+
+.footer__social{
+  font-size: 1.5rem;
+  color: var(--title-color);
+  margin-right: var(--mb-2);
+}
+
+.footer__title{
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-2);
+}
+
+.footer__link{
+  display: inline-block;
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
+}
+
+.footer__link:hover{
+  color: var(--first-color);
+}
+
+.footer__copy{
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  margin-top: 3.5rem;
 }
