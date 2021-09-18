@@ -1,4 +1,4 @@
-/*========== MEDIA QUERIES ==========*/
+/* ---------- MEDIA QUERIES --------- */
 @media screen and (min-width: 576px){
   .home__container,
   .about__container,
@@ -97,7 +97,7 @@
   }
 }
 
-/* For tall screens on mobiles y desktop*/
+/* ---- For tall screens on mobiles y desktop ------*/
 @media screen and (min-height: 721px) {
     .home__container {
         height: 640px;
