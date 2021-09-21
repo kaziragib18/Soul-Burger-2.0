@@ -33,7 +33,7 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 
-  /*---- z index ----*/
+/*---- z index ----*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -47,7 +47,7 @@ html{
   scroll-behavior: smooth;
 }
 
-/* --------- Variables Dark theme -------- */
+/* -------- Variables Dark theme ------- */
 body.dark-theme{
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
@@ -126,7 +126,7 @@ img{
   color: var(--first-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
-  padding-top: 2rem;
+  padding-top: var(--mb-4);
 }
 
 /*------- LAYOUT --------*/
@@ -159,7 +159,6 @@ img{
   justify-content: space-between;
   align-items: center;
 }
-
 
 .nav__item{
   margin-bottom: var(--mb-2);
@@ -330,7 +329,7 @@ img{
   font-size: var(--normal-font-size);
 }
 
-.menu__detail, .menu__preci{
+.menu__detail, .menu__price{
   font-size: var(--small-font-size);
 }
 
