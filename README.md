@@ -1,5 +1,5 @@
 ﻿# Soul-Burger-2.0
-#Overview:
+-Overview:
 
 • This is a Restaurant landing page with dark mode and scroll reveal animation. Website is fully responsive for tablet and mobile users.
 
