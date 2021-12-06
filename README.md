@@ -1,7 +1,7 @@
 # Soul-Burger-2.0
 This is a fully responsive restaurant landing page with dark mode and with smooth scroll animation and layout.
 
-### `live Link:`  https://fine-dine-27aa6.web.app/
+### `live Link:`  https://soul-burger-2021-kaziragib18.netlify.app/
 
 ### `Overview:` 
  - This is a Restaurant landing page with dark mode and scroll reveal animation. Website is fully responsive for tablet and mobile users.
